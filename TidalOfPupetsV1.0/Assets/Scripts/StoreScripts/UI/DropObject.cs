@@ -7,17 +7,14 @@ using UnityEngine.UI;
 
 public class DropObject : MonoBehaviour, IDropHandler
 {
-    public Image panel;
-    public Sprite tower;
-    public Sprite Sprite;
-    public TextMeshProUGUI text;
-
     public void OnDrop(PointerEventData eventData)
     {
         GameObject droppedObj = eventData.pointerDrag;
+        DragObject draggaItem = droppedObj.GetComponent<DragObject>();
+        draggaItem.parentTransform = transform;
+        draggaItem.discart = false;
+        TowerCardSetup card = droppedObj.GetComponent<TowerCardSetup>();
 
-        panel.sprite = tower;
+        this.GetComponent<Image>().sprite = card.tower.towerImage[card.TowerLevel];
     }
-
-
 }
