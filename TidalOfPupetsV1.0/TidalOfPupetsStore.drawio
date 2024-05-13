@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T16:14:00.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="hSmM2lN3EnFI6LuaB_eE" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T16:16:30.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="OaVDv2efU2pcFflvERo7" version="24.4.0" type="github">
   <diagram name="Sayfa -1" id="kKzHLGSKIOkIXO0F31tR">
     <mxGraphModel dx="1304" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,6 +78,18 @@
         </mxCell>
         <mxCell id="3a739cX6AssFqE7CFslS-1" value="Kartı Gemiye Sürükle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-3" value="Saldırı Kuleleri" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-4" value="Destek Kuleleri" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-6" value="Savunma Kuleleri" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
