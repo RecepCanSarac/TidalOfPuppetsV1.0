@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2024-05-13T16:16:30.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="OaVDv2efU2pcFflvERo7" version="24.4.0" type="github">
+  <diagram name="Sayfa -1" id="kKzHLGSKIOkIXO0F31tR">
+    <mxGraphModel dx="1304" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9pXXfi69la4mdvmXIPyO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9pXXfi69la4mdvmXIPyO-1" target="9pXXfi69la4mdvmXIPyO-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-1" value="Başla" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9pXXfi69la4mdvmXIPyO-2" target="9pXXfi69la4mdvmXIPyO-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-2" value="Kart Satın Alma Butonuna Bas" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9pXXfi69la4mdvmXIPyO-4" target="9pXXfi69la4mdvmXIPyO-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-11" value="Evet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9pXXfi69la4mdvmXIPyO-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.7333" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9pXXfi69la4mdvmXIPyO-4" target="9pXXfi69la4mdvmXIPyO-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-23" value="Hayır" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9pXXfi69la4mdvmXIPyO-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.7872" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-4" value="Satın Alım Yapıldımı" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="174" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9pXXfi69la4mdvmXIPyO-9" target="3a739cX6AssFqE7CFslS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-9" value="Envantere İstenilen Kartı Ekle Butonunun Üstüne Ekle" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="154" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9pXXfi69la4mdvmXIPyO-15" target="9pXXfi69la4mdvmXIPyO-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-15" value="Envantere Git" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9pXXfi69la4mdvmXIPyO-21" target="9pXXfi69la4mdvmXIPyO-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" />
+              <mxPoint x="300" />
+              <mxPoint x="300" y="30" />
+            </Array>
+            <mxPoint x="70" y="10" as="sourcePoint" />
+            <mxPoint x="341.20000000000005" y="27.179999999999836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-25" value="Hayır" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9pXXfi69la4mdvmXIPyO-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.9067" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.168;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9pXXfi69la4mdvmXIPyO-21" edge="1" target="3a739cX6AssFqE7CFslS-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-27" value="Evet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9pXXfi69la4mdvmXIPyO-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.7466" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9pXXfi69la4mdvmXIPyO-21" value="Envanterde Kart Varmı" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-1" value="Kartı Gemiye Sürükle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-3" value="Saldırı Kuleleri" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-4" value="Destek Kuleleri" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3a739cX6AssFqE7CFslS-6" value="Savunma Kuleleri" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
