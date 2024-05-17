@@ -357,8 +357,10 @@ GameObject:
   - component: {fileID: 2668392858910995013}
   - component: {fileID: 2668392858910995015}
   - component: {fileID: 2668392858910995014}
+  - component: {fileID: 8064992541617281469}
+  - component: {fileID: 3065382817936112218}
   m_Layer: 5
-  m_Name: Basic Tower Card 00
+  m_Name: Basic Tower Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -385,7 +387,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -135.33008, y: 78}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 400, y: 275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2668392858910995015
@@ -426,6 +428,36 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8064992541617281469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2668392858910995012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c8050c300281d47800e84d3b420682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tower: {fileID: 11400000, guid: 4223d6784b71ec74caaaed4ec19220f6, type: 2}
+  towerImage: {fileID: 2668392857582826240}
+  className: {fileID: 2668392858147973620}
+  towerDesc: {fileID: 2668392857440414761}
+--- !u!114 &3065382817936112218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2668392858910995012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebccc40b4cd2c3941995bc95e2dfd3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 2668392858910995014}
+  parentAfterDrag: {fileID: 0}
 --- !u!1 &2668392858925785692
 GameObject:
   m_ObjectHideFlags: 0

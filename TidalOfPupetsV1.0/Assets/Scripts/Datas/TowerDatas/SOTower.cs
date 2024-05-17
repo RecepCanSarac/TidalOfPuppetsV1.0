@@ -3,8 +3,11 @@ using UnityEngine.UI;
 
 
 [CreateAssetMenu(fileName = "Tower", menuName = "Towers/AttackTower")]
-public class SOBasicTower : ScriptableObject
+public class SOTower : ScriptableObject
 {
+    [Header("TowerName")]
+    public string TowerName; 
+
     [Header("TowerLevel")]
     public int TowerLevel;
 

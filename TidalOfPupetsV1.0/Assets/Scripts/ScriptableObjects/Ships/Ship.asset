@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397f3bc17b9bd0243aeaf9a804c77d3a, type: 3}
+  m_Name: Ship
+  m_EditorClassIdentifier: 
+  ShipLevel: 0
+  ShipDatas: []
+  SlotList: []
+  SlotPoints: []

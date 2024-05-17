@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9483e26e9ab868942bfd9366150765d8, type: 3}
-  m_Name: BasicTower 00
+  m_Name: Normal Tower 00
   m_EditorClassIdentifier: 
-  TowerName: Basic Tower
+  TowerName: Normal Tower
   TowerLevel: 0
   prefab:
   - {fileID: 1615236577936067068, guid: fb7809b646778964395447419fa69f32, type: 3}
@@ -25,9 +25,9 @@ MonoBehaviour:
   - 0.8
   - 0.5
   towerImage:
-  - {fileID: -1551778206, guid: 9d690afa46afc31438036e558403bc25, type: 3}
-  - {fileID: -547460649, guid: 9d690afa46afc31438036e558403bc25, type: 3}
-  - {fileID: -1135724970, guid: 9d690afa46afc31438036e558403bc25, type: 3}
+  - {fileID: -285589153, guid: 9d690afa46afc31438036e558403bc25, type: 3}
+  - {fileID: 1491333009, guid: 9d690afa46afc31438036e558403bc25, type: 3}
+  - {fileID: 40629073, guid: 9d690afa46afc31438036e558403bc25, type: 3}
   Description:
   - This Tower Normal Power
   - This Tower Hight Power
