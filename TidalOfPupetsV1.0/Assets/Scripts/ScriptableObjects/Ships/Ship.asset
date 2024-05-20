@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Ship
   m_EditorClassIdentifier: 
   ShipLevel: 0
-  ShipDatas: []
-  SlotList: []
+  TowerData: []
+  SlotList:
+  - {fileID: 0}
   SlotPoints: []
