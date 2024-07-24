@@ -28,7 +28,7 @@ public class TowerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, 4, detectLayer);
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, 10, detectLayer);
 
         if (enemies.Length > 0)
         {
@@ -94,12 +94,9 @@ public class TowerController : MonoBehaviour
 
     private void MirrorObject()
     {
-
         Vector3 scale = TowerBottom.localScale;
         scale.x *= -1f;
         TowerBottom.localScale = scale;
         isMirrored = !isMirrored;
-
-
     }
 }

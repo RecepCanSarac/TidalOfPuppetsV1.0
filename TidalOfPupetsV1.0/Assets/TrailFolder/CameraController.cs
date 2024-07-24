@@ -9,6 +9,8 @@ public class CameraController : MonoBehaviour
     public float maxZoom = 10f;
     private Camera cam;
     private PlayerController playerController;
+    public Vector3 offset;
+    public Transform ship;
 
     void Start()
     {
@@ -22,11 +24,20 @@ public class CameraController : MonoBehaviour
         cam.orthographicSize -= scrollInput * zoomSpeed;
         cam.orthographicSize = Mathf.Clamp(cam.orthographicSize, minZoom, maxZoom);
 
-        bool isZoomedIn = cam.orthographicSize < 6;
+        if (cam.orthographicSize < 15)
+        {
+            Vector3 targetPosition = playerController.transform.position + new Vector3(0, 0, -10);
+            transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * zoomSpeed);
+        }
+        else
+        {
+            transform.position = Vector3.Lerp(transform.position, new Vector3(ship.position.x, ship.position.y - offset.y, -10), Time.deltaTime * zoomSpeed);
+        }
+
+        bool isZoomedIn = cam.orthographicSize < (minZoom + maxZoom) / 2;
         if (playerController.isOkey != isZoomedIn)
         {
             playerController.isOkey = isZoomedIn;
-            Debug.Log("asdasdf");
         }
     }
 }

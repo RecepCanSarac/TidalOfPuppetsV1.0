@@ -17,7 +17,7 @@ MonoBehaviour:
   prefab:
   - {fileID: 1615236577936067068, guid: fb7809b646778964395447419fa69f32, type: 3}
   AttackRange:
-  - 4
+  - 10
   - 5
   - 7
   AttackRate:
